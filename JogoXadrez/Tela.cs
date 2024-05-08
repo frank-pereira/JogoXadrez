@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using System;
+using tabuleiro;
 
 namespace JogoXadrez
 {
@@ -12,6 +13,7 @@ namespace JogoXadrez
                 {
                     if (tab.Peca(i, j) == null)
                     {
+
                         Console.Write("- ");
                     }
                     else
